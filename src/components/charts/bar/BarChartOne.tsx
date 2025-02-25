@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 import React from "react";
 
 import { ApexOptions } from "apexcharts";
@@ -108,3 +108,10 @@ export default function BarChartOne() {
     </div>
   );
 }
+*/import React from 'react';
+
+const Hello: React.FC = () => {
+  return <h1>chart</h1>;
+};
+
+export default Hello;

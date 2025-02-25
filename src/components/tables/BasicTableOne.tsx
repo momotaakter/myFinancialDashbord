@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import {
   Table,
   TableBody,
@@ -117,7 +117,7 @@ export default function BasicTableOne() {
       <div className="max-w-full overflow-x-auto">
         <div className="min-w-[1102px]">
           <Table>
-            {/* Table Header */}
+            {/* Table Header *
             <TableHeader className="border-b border-gray-100 dark:border-white/[0.05]">
               <TableRow>
                 <TableCell
@@ -153,7 +153,7 @@ export default function BasicTableOne() {
               </TableRow>
             </TableHeader>
 
-            {/* Table Body */}
+            {/* Table Body *
             <TableBody className="divide-y divide-gray-100 dark:divide-white/[0.05]">
               {tableData.map((order) => (
                 <TableRow key={order.id}>
@@ -224,3 +224,13 @@ export default function BasicTableOne() {
     </div>
   );
 }
+  */
+
+
+import React from 'react';
+
+const Hello: React.FC = () => {
+  return <h1>table</h1>;
+};
+
+export default Hello;

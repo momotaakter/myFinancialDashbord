@@ -28,7 +28,7 @@ import React from 'react'
 
 function SidebarWidget() {
   return (
-    <div>SidebarWidget</div>
+    <div>bitsec POS</div>
   )
 }
 

@@ -1,4 +1,4 @@
-import Image from "next/image";
+/*import Image from "next/image";
 import React from "react";
 
 interface AvatarProps {
@@ -40,7 +40,7 @@ const Avatar: React.FC<AvatarProps> = ({
 }) => {
   return (
     <div className={`relative  rounded-full ${sizeClasses[size]}`}>
-      {/* Avatar Image */}
+
       <Image
         width="0"
         height="0"
@@ -50,7 +50,6 @@ const Avatar: React.FC<AvatarProps> = ({
         className="object-cover w-full rounded-full"
       />
 
-      {/* Status Indicator */}
       {status !== "none" && (
         <span
           className={`absolute bottom-0 right-0 rounded-full border-[1.5px] border-white dark:border-gray-900 ${
@@ -63,3 +62,12 @@ const Avatar: React.FC<AvatarProps> = ({
 };
 
 export default Avatar;
+*/
+
+import React from 'react';
+
+const Hello: React.FC = () => {
+  return <h1>avatar</h1>;
+};
+
+export default Hello;

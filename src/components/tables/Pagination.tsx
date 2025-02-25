@@ -1,4 +1,4 @@
-type PaginationProps = {
+/*type PaginationProps = {
   currentPage: number;
   totalPages: number;
   onPageChange: (page: number) => void;
@@ -51,4 +51,11 @@ const Pagination: React.FC<PaginationProps> = ({
   );
 };
 
-export default Pagination;
+export default Pagination;*/
+import React from 'react';
+
+const Hello: React.FC = () => {
+  return <h1>calender</h1>;
+};
+
+export default Hello;

@@ -1,4 +1,4 @@
-import Link from "next/link";
+/*import Link from "next/link";
 import React from "react";
 
 interface AlertProps {
@@ -142,4 +142,12 @@ const Alert: React.FC<AlertProps> = ({
   );
 };
 
-export default Alert;
+export default Alert;*/
+
+import React from 'react';
+
+const Hello: React.FC = () => {
+  return <h1>ui element</h1>;
+};
+
+export default Hello;

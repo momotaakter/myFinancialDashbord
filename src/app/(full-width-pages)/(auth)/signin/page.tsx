@@ -1,4 +1,4 @@
-import SignInForm from "@/components/auth/SignInForm";
+
 import GridShape from "@/components/common/GridShape";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function SignIn() {
   return (
     <div className="relative flex w-full h-screen px-4 py-6 overflow-hidden bg-white z-1 dark:bg-gray-900 sm:p-0">
-      <SignInForm />
+
       <div className="relative items-center justify-center flex-1 hidden p-8 z-1 bg-brand-950 dark:bg-white/5 lg:flex">
         {/* <!-- ===== Common Grid Shape Start ===== --> */}
         <GridShape />

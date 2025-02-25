@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 import React, { useState, useRef, useEffect } from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
@@ -277,3 +277,12 @@ const renderEventContent = (eventInfo: EventContentArg) => {
 };
 
 export default Calendar;
+*/
+
+import React from 'react';
+
+const Hello: React.FC = () => {
+  return <h1>calender</h1>;
+};
+
+export default Hello;
